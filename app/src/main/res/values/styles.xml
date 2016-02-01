@@ -23,5 +23,33 @@
         <item name="android:textColorHighlight">?android:textColorHighlight</item>
         <item name="android:textColorLink">?android:textColorLink</item>
         <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
     </style>
+
+    <style name="OrangeButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/orangeButton</item>
+        <item name="android:width">@dimen/button_width</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="HotPinkButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/hotPinkButton</item>
+        <item name="android:width">@dimen/button_width</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
 </resources>
